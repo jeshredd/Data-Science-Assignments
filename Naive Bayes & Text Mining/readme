@@ -1,1 +1,8 @@
+This notebook performs text classification on a subset of the 20 Newsgroups dataset (loaded as blogs.csv with 2000 samples across 20 categories). It includes data cleaning (lowercasing, punctuation removal, stopword filtering), TF-IDF vectorization, Naive Bayes classification, model evaluation (accuracy, precision, recall, F1), and sentiment analysis using VADER on the classified texts.
+Key Steps:
 
+Load and explore data (df.info(), value counts).
+Preprocess text (custom clean_text function).
+Train/test split, TF-IDF, MultinomialNB model.
+Classification report on test set (85% accuracy).
+Sentiment distribution across categories (mostly positive, politics negative).
