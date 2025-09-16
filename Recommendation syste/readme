@@ -1,1 +1,8 @@
+This notebook implements a content-based filtering recommendation system for anime using genre-based cosine similarity. It preprocesses the dataset, computes similarity matrices, and recommends similar anime with tunable thresholds. Includes train/test split and notes on evaluation challenges without user interaction data.
+Key Steps:
 
+Load and explore anime.csv (12,294 anime entries).
+Genre vectorization and cosine similarity computation.
+Recommendation function with top-N and similarity threshold (optimal: 0.3).
+Example: Recommendations for "Fullmetal Alchemist: Brotherhood" (e.g., similarity scores >0.3).
+Discussion: No ground truth for precision/recall; relies on domain knowledge.
