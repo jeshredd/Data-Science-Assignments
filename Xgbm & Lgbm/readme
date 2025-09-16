@@ -1,0 +1,8 @@
+This notebook compares XGBoost and LightGBM for binary classification on Titanic survival. Includes EDA, preprocessing (handling missing values, encoding), hyperparameter tuning with GridSearchCV, and metric comparisons.
+Key Steps:
+
+Load Titanic_train.csv (891 passengers).
+EDA: Info, distributions, skew checks; imputation/encoding.
+Models: XGBoost (best: scale_pos_weight=2, ~0.82 accuracy), LightGBM (best: num_leaves=31, ~0.84 accuracy).
+Evaluation: Classification reports, bar plot of metrics (LightGBM edges out in speed/memory).
+Insights: LightGBM faster for large data; XGBoost more robust for small sets.
