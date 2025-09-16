@@ -1,1 +1,7 @@
+This project implements **Logistic Regression** for binary classification problems. It demonstrates how to preprocess data, train a model, and evaluate performance.
+
+## Key Tasks
+- Data preprocessing and feature selection
+- Logistic regression model training
+- Model evaluation using accuracy, precision, recall, F1-score, and ROC curve
 
