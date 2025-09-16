@@ -1,1 +1,9 @@
+This project performs **Exploratory Data Analysis** (EDA) to extract insights, detect patterns, and prepare data for further modeling.
+
+## Key Tasks
+- Data cleaning and handling missing values
+- Data visualization with **matplotlib** and **seaborn**
+- Univariate, bivariate, and multivariate analysis
+- Outlier detection
+
 
