@@ -1,1 +1,8 @@
+This project builds a **Neural Network model** to solve classification problems using **Keras/TensorFlow**. It demonstrates deep learning fundamentals and evaluates model performance.
+
+## Key Tasks
+- Data preprocessing and normalization
+- Building a feedforward neural network
+- Model training and evaluation
+- Performance metrics and visualization (loss, accuracy curves)
 
