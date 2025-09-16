@@ -1,1 +1,9 @@
+This notebook trains SVM classifiers with different kernels (linear, RBF, polynomial) on mushroom edibility data. Includes GridSearchCV tuning, PCA for visualization, and decision region plots.
+Key Steps:
 
+Load mushroom dataset (~8,124 samples, 22 categorical features).
+EDA: Encoding (LabelEncoder), feature distributions.
+Models: SVC kernels; poly kernel best (~1.00 accuracy post-tuning).
+Evaluation: Classification reports; PCA-reduced decision boundaries.
+Analysis: Strengths (balanced classes); weaknesses (categorical handling, tuning time).
+Interview Q&A: Kernel impacts, SVM pros/cons for this data.
