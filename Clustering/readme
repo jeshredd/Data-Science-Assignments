@@ -1,1 +1,9 @@
+This notebook applies unsupervised clustering to the EastWest Airlines customer dataset (EastWestAirlines.xlsx). It preprocesses numerical features (scaling with MinMaxScaler/StandardScaler), performs K-Means (elbow/silhouette for optimal k=3), Hierarchical Clustering (dendrogram), and DBSCAN (eps=0.5, min_samples=5). Visualizations include scatter plots of clusters.
+Key Steps:
 
+Load data (df.head(), df.info()).
+Feature selection (exclude ID/Award), scaling.
+K-Means: Elbow plot, silhouette scores.
+Hierarchical: Dendrogram for linkage.
+DBSCAN: Cluster visualization (Balance vs. Flight_miles_12mo).
+Evaluation: Inertia, silhouette scores.
