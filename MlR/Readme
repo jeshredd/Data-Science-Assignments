@@ -1,1 +1,9 @@
+This notebook builds multiple linear regression models to predict car prices using features like age, mileage, HP, and fuel type. It includes EDA (skewness check, correlation heatmap), encoding (LabelEncoder for categorical), scaling, model training (LinearRegression, RandomForestRegressor), regularization (Ridge/Lasso), and evaluation (MSE, R²).
+Key Steps:
 
+Load data (Toyota.csv; 1436 rows, 11 columns).
+EDA: Histograms, boxplots, correlation matrix.
+Preprocessing: Handle skewness (log transform), encode Fuel_Type.
+Train/test split (80/20), scaling (StandardScaler).
+Models: Linear (R² ~0.76), Random Forest (R² ~0.88), Ridge (R² ~0.86), Lasso (R² ~0.86).
+Interview Q&A on normalization/standardization and multicollinearity (VIF).
