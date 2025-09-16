@@ -1,1 +1,18 @@
 
+This notebook demonstrates the implementation of the **K-Nearest Neighbors (KNN)** algorithm for classification problems. It explores how distance metrics and the choice of K affect model accuracy.
+
+## 📂 Contents
+- Introduction to KNN algorithm  
+- Data preprocessing and normalization  
+- Training a KNN Classifier  
+- Hyperparameter tuning (choosing K)  
+- Model evaluation with confusion matrix and accuracy score  
+
+## 🛠️ Requirements
+- Python 3.x
+- Jupyter Notebook
+- Libraries: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
+
+
+You will understand how the KNN algorithm works, how to implement it using `scikit-learn`, and how to evaluate its performance.
+
