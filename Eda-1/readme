@@ -1,1 +1,17 @@
 
+This notebook demonstrates **Exploratory Data Analysis (EDA)** techniques to summarize datasets, detect patterns, and visualize relationships. EDA is an essential step in data science projects before applying machine learning models.
+
+## 📂 Contents
+- Data loading and cleaning  
+- Handling missing values and duplicates  
+- Descriptive statistics  
+- Data visualization (histograms, scatter plots, box plots, heatmaps)  
+- Correlation analysis  
+
+## 🛠️ Requirements
+- Python 3.x
+- Jupyter Notebook
+- Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`
+
+You will learn how to clean and visualize data effectively, identify key insights, and prepare datasets for advanced modeling.
+
