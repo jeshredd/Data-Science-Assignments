@@ -1,1 +1,9 @@
+This notebook applies PCA for dimensionality reduction on wine quality data, followed by K-Means clustering. It compares clusters on original vs. PCA-transformed data using silhouette scores and visualizations.
+Key Steps:
 
+Load wine dataset (178 samples, 13 features).
+EDA: Scaling, correlation heatmap.
+PCA: Reduces to 2-3 components (explained variance ~70%).
+Clustering: K-Means (k=3); silhouette analysis.
+Comparison: Original (silhouette ~0.55) vs. PCA (~0.58); cluster interpretations (low/medium/premium wines).
+Insights: PCA improves clustering by reducing noise; useful for high-dim visualization.
