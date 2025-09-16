@@ -1,1 +1,16 @@
 
+This notebook covers the concept of **Hypothesis Testing** in statistics. It demonstrates how to test assumptions about data using statistical tests such as t-tests, chi-square tests, and ANOVA.
+
+## 📂 Contents
+- Formulating null and alternative hypotheses  
+- Types of hypothesis tests  
+- Performing statistical tests using `scipy`  
+- Interpreting p-values and test results  
+
+## 🛠️ Requirements
+- Python 3.x
+- Jupyter Notebook
+- Libraries: `numpy`, `pandas`, `scipy`, `statsmodels`
+
+You will gain hands-on experience in performing hypothesis testing and interpreting statistical test results for real-world problems.
+
