@@ -1,1 +1,10 @@
 
+This project applies **Association Rule Mining** to identify meaningful relationships between items in transactional data. Techniques like **Apriori** and **Eclat** are used to generate frequent itemsets and association rules.
+
+## Key Tasks
+- Data preprocessing and cleaning
+- Implementation of **Apriori Algorithm**
+- Extraction of strong rules using support, confidence, and lift
+- Visualization of frequent itemsets
+
+
