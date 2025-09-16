@@ -1,1 +1,8 @@
+This notebook applies ensemble methods for multi-class classification on glass type identification. It trains Random Forest, Bagging (with Decision Trees), and AdaBoost, compares performance, and discusses handling imbalances.
+Key Steps:
 
+Load glass.csv (214 samples, 9 features).
+EDA: Distributions, correlations; scaling with StandardScaler.
+Models: RF (n_estimators=100), Bagging, AdaBoost; train/test split (80/20).
+Evaluation: Classification reports (AdaBoost highest F1-weighted ~0.70).
+Interview Q&A: Bagging (parallel, reduces variance) vs. Boosting (sequential, corrects errors); imbalance via resampling/class weights.
