@@ -1,1 +1,17 @@
 
+This notebook focuses on implementing and understanding **Decision Tree algorithms** for classification and regression problems. It explains how decision trees split data, measure information gain, and evaluate performance.
+
+## 📂 Contents
+- Introduction to Decision Trees  
+- Data preprocessing  
+- Building a Decision Tree Classifier  
+- Model training and testing  
+- Performance evaluation (accuracy, confusion matrix, etc.)  
+
+## 🛠️ Requirements
+- Python 3.x
+- Jupyter Notebook
+- Libraries: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
+
+You will learn how decision trees work, how to implement them using `scikit-learn`, and how to evaluate their effectiveness in solving classification tasks.
+
