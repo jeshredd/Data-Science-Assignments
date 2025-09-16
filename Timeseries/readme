@@ -1,1 +1,8 @@
+This notebook performs time series analysis and forecasting on monthly exchange rates. It decomposes the series, fits models (Simple Exponential Smoothing, Holt's Linear Trend, ARIMA), and compares performance using MAE and RMSE on hold-out data.
+Key Steps:
 
+Load data (1990-2002; resampled to monthly).
+EDA: Decomposition, ACF/PACF plots, stationarity checks (differencing).
+Models: SES (no trend/seasonality), Holt's (trend), ARIMA(5,1,0).
+Evaluation: Forecast vs. test set; comparison table (ARIMA lowest MAE, Holt's lowest RMSE).
+Insights: ARIMA for complex patterns; Holt's for simplicity.
